@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Dekko', sans-serif;
+	color: #7F7F7F;
+}
+
+.container {
+	max-width: 1200px;
+	width: 100%;
+	margin: auto;
+}
+
+header > div:nth-child(1) {
+	border-bottom: 1px solid #c6c6c6;
+}
+
+.headerTop .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.headerTop .headerTopIn {
+	max-width: 400px;
+	width: 100%;
+	font-size: 14px;
+}
+
+.contLog {
+	display: flex;
+}
+
+.contLog input {
+	display: block;
+	width: 62px;
+	line-height: 36px;
+	border: 1px solid #c6c6c6;
+	border-radius: 18px;
+	padding-left: 34px;
+	outline: none;
+}
+
+.contLog label {
+	position: relative;
+	margin-right: 15px;
+}
+
+.contLog span.fa-search {
+	position: absolute;
+	z-index: 1;
+	top: calc(50% - 7px);
+	margin-left: 12px;
+}
+
+.contLog .logReg span {
+	line-height: 36px;
+}
+
+.contLog .logReg span a {
+	text-decoration: none;	
+}
+
+.headerTop .headerTopIn:nth-child(2) {
+	text-align: center;
+}
+
+.headerTop .contPerfil {
+	text-align: right;
+}
+
+.headerTop .contPerfil i {
+	font-size: 12px;
+}
+
+.contPerfil span {
+	line-height: 22px;
+	display: inline-block;
+	position: relative;
+}
+
+.contPerfil a:hover {
+	text-decoration: underline;
+}
+
+.contPerfil a:first-child span{
+	border-right: 2px dotted;
+	padding-right: 20px;
+}
+
+.contPerfil a:last-child span i {
+	font-size: 30px;
+	line-height: 30px;
+	margin-left: 15px;
+	color: #b6b6b6;
+}
+
+.contPerfil a:last-child span span {
+	position: absolute;
+	color: white;
+	background-color: #b6b6b6;
+	line-height: 12px;
+	left: 17.5px;
+	top: calc(50% - 1px);
+	display: block;
+	width: 26px;
+	text-align: center;
+}
