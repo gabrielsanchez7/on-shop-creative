@@ -11,6 +11,10 @@
 	margin: auto;
 }
 
+header {
+	padding-top: 15px;
+}
+
 header > div:nth-child(1) {
 	border-bottom: 1px solid #c6c6c6;
 }
@@ -105,4 +109,28 @@ header > div:nth-child(1) {
 	display: block;
 	width: 26px;
 	text-align: center;
+}
+
+.menu {
+	display: flex;
+	justify-content: center;
+	margin: 10px 0;
+}
+
+.menu li {
+	list-style: none;
+	margin: 0 60px;
+}
+
+.menu a {
+	text-decoration: none;
+	display: block;
+	width: 100px;
+	text-align: center;
+	padding: 7px 0;
+	transition: 0.1s;
+}
+
+.menu a:hover {
+	border-bottom: 3px dotted rgba(255, 46, 47, 0.5);
 }
